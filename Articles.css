@@ -97,7 +97,19 @@ opacity: 0.85
     padding-bottom: 8px;
    ;
 }
-
+.button-item{
+  display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    align-items: center;
+    row-gap: 5px;
+}
+.button-item a{
+  color: white;
+  display: inline;
+  text-decoration: none;
+  width: auto;
+}
 
 .button1{
     width: 100%; 
